@@ -86,7 +86,7 @@ export async function mutate(user: User, input: unknown) {
   const db = database(), mutation = base.requestId, now = new Date().toISOString();
   const value = base as Record<string, unknown>;
   if (base.action === "bootstrap") {
-    const workspace = makeItem("workspace", fields.parse({ title: "Sentinel Server HQ", body: "Build a reliable server, a returning community, and sustainable revenue.", status: "active" }), user, "workspace_main");
+    const workspace = makeItem("workspace", fields.parse({ title: "Poop Clan Server HQ", body: "Build a reliable server, a returning community, and sustainable revenue.", status: "active" }), user, "workspace_main");
     const items: Item[] = [workspace];
     const depends: Record<number, number[]> = { 2: [1], 3: [2], 4: [3], 5: [0], 6: [4, 5], 7: [6], 8: [0, 4], 9: [7, 8], 10: [9], 11: [10], 12: [1, 10], 13: [3, 4] };
     STARTER_TASKS.forEach(([phase, title, body, acceptance, category], i) => items.push(makeItem("task", fields.parse({ title, body, phase, category, priority: i < 4 ? "high" : "medium", extra: { acceptance, dependencies: (depends[i] || []).map(n => `starter_task_${n}`) } }), user, `starter_task_${i}`)));

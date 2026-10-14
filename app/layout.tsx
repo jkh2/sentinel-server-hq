@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sentinel Server HQ — Build together",
+  title: "Poop Clan Server HQ — Build together",
   description: "A private workspace for server ideas, decisions, delivery, and team knowledge.",
   icons: {
     icon: "/favicon.svg",

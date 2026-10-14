@@ -1,4 +1,4 @@
-# Sentinel Server HQ — Quick User Guide
+# Poop Clan Server HQ — Quick User Guide
 
 For James and Tyler: a shared planning room for your Rust game server.
 
@@ -24,3 +24,7 @@ Review Overview and pinned notes. Discuss pending ideas. Choose three priorities
 ## Help controls
 
 Select **Help & guide** in the header to replay the quick-start walkthrough. Section tips can be dismissed individually or turned off; **Show all section tips again** restores them. These help preferences are saved only for your account in the browser you are using. Download this guide from the walkthrough whenever you need a copy.
+
+## Button sounds
+
+Buttons play a short synthesized fart sound when clicked. Use the speaker control in the header to mute or enable sounds. Your sound preference is remembered in this browser. Sounds start with a button click; browser audio support and device volume still apply.

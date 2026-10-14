@@ -1,9 +1,10 @@
-# Sentinel Server HQ
+# Poop Clan Server HQ
 
 A private, two-person workspace for planning, building, operating, and growing a game server.
 
 ## Included
 
+- Brown Poop Clan branding and optional synthesized fart sounds on button clicks.
 - Shared overview and a seven-phase roadmap.
 - First-use walkthrough, replayable Help & guide, optional section tips, and a downloadable short user guide.
 - Ideas with discussion, required decision comments, and approval-to-task promotion.
